@@ -8,10 +8,18 @@
 nomicog() */
 
 // EXERCICI 2
-function mostrarTipus(valor) {
+/* function mostrarTipus(valor) {
     console.log(typeof valor);
 }
 
 mostrarTipus(42);
 mostrarTipus("Hola");
-mostrarTipus(true);
+mostrarTipus(true); */
+
+// EXERCICI 3
+ function dataActual() {
+    return new Date();
+}
+
+console.log(dataActual());
+
