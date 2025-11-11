@@ -31,7 +31,7 @@ console.log(dataActual()); */
 console.log(variable1) */
 
 // EXERCICI 5
-function vocals(text) {
+/* function vocals(text) {
     let comptador = 0;
     for (let i = 0; i < text.length; i++) {
         let lletra = text[i].toLowerCase();
@@ -42,5 +42,11 @@ function vocals(text) {
     return comptador;
 }
 
-console.log(vocals("Guacamole"));
+console.log(vocals("Guacamole")); */
 
+// EXERCICI 6
+function suma(a, b, c = 2) {
+    return a + b + c;
+}
+console.log(suma(2, 3));
+console.log(suma(2, 3, 4));
