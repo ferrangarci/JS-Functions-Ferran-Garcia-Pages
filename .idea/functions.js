@@ -17,9 +17,16 @@ mostrarTipus("Hola");
 mostrarTipus(true); */
 
 // EXERCICI 3
- function dataActual() {
+/* function dataActual() {
     return new Date();
 }
 
-console.log(dataActual());
+console.log(dataActual()); */
+
+// EXERCICI 4
+function canviarvariable() {
+    let variable1 = "HOLA"
+}
+
+console.log(variable1)
 
