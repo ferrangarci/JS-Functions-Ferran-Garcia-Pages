@@ -24,9 +24,23 @@ mostrarTipus(true); */
 console.log(dataActual()); */
 
 // EXERCICI 4
-function canviarvariable() {
+/* function canviarvariable() {
     let variable1 = "HOLA"
 }
 
-console.log(variable1)
+console.log(variable1) */
+
+// EXERCICI 5
+function vocals(text) {
+    let comptador = 0;
+    for (let i = 0; i < text.length; i++) {
+        let lletra = text[i].toLowerCase();
+        if ("aeiou".includes(lletra)) {
+            comptador++;
+        }
+    }
+    return comptador;
+}
+
+console.log(vocals("Guacamole"));
 
