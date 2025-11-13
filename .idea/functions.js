@@ -78,7 +78,12 @@ console.log(combinat(1, 2)); */
 console.log(comprovar(5,25)) */
 
 // EXERCICI 9
-let trentaAnonima = function(a, b) {
+/* let trentaAnonima = function(a, b) {
     return a === 30 || b === 30 || a + b === 30;
 };
-console.log(trentaAnonima(15, 15));
+console.log(trentaAnonima(15, 15)); */
+
+// EXERCICI 10
+let dosvalors = (a, b) => a === b;
+console.log(dosvalors(5, "5"));
+console.log(dosvalors(5, 5));
