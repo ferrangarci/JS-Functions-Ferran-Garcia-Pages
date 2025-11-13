@@ -45,8 +45,23 @@ console.log(variable1) */
 console.log(vocals("Guacamole")); */
 
 // EXERCICI 6
-function suma(a, b, c = 2) {
+/* function suma(a, b, c = 2) {
     return a + b + c;
 }
 console.log(suma(2, 3));
-console.log(suma(2, 3, 4));
+console.log(suma(2, 3, 4)); */
+
+// EXERCICI 7
+function dataActual() {
+    return new Date();
+}
+
+function suma(a, b, c = 2) {
+    return a + b + c;
+}
+
+function combinat(a, b, c) {
+    console.log (dataActual());
+    console.log (suma(a, b, c));
+}
+console.log(combinat(1, 2));
