@@ -67,7 +67,7 @@ function combinat(a, b, c) {
 console.log(combinat(1, 2)); */
 
 // EXERCICI 8
-function comprovar(a, b) {
+/* function comprovar(a, b) {
     if (a == 30 || b == 30 || (a+b == 30)) {
         return true;
     }
@@ -75,5 +75,10 @@ function comprovar(a, b) {
         return false;
     }
 }
-console.log(comprovar(5,25))
+console.log(comprovar(5,25)) */
 
+// EXERCICI 9
+let trentaAnonima = function(a, b) {
+    return a === 30 || b === 30 || a + b === 30;
+};
+console.log(trentaAnonima(15, 15));
