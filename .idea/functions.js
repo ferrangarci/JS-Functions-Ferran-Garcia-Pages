@@ -52,7 +52,7 @@ console.log(suma(2, 3));
 console.log(suma(2, 3, 4)); */
 
 // EXERCICI 7
-function dataActual() {
+/* function dataActual() {
     return new Date();
 }
 
@@ -64,4 +64,16 @@ function combinat(a, b, c) {
     console.log (dataActual());
     console.log (suma(a, b, c));
 }
-console.log(combinat(1, 2));
+console.log(combinat(1, 2)); */
+
+// EXERCICI 8
+function comprovar(a, b) {
+    if (a == 30 || b == 30 || (a+b == 30)) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(comprovar(5,25))
+
