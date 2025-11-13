@@ -84,6 +84,10 @@ console.log(comprovar(5,25)) */
 console.log(trentaAnonima(15, 15)); */
 
 // EXERCICI 10
-let dosvalors = (a, b) => a === b;
+/* let dosvalors = (a, b) => a === b;
 console.log(dosvalors(5, "5"));
-console.log(dosvalors(5, 5));
+console.log(dosvalors(5, 5)); */
+
+// EXERCICI 11
+let arrelquadrada = (a) => (Math.sqrt(a).toFixed(2));
+console.log(arrelquadrada(10))
