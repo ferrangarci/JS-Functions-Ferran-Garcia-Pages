@@ -89,5 +89,9 @@ console.log(dosvalors(5, "5"));
 console.log(dosvalors(5, 5)); */
 
 // EXERCICI 11
-let arrelquadrada = (a) => (Math.sqrt(a).toFixed(2));
-console.log(arrelquadrada(10))
+/* let arrelquadrada = (a) => (Math.sqrt(a).toFixed(2));
+console.log(arrelquadrada(10)) */
+
+// EXERCICI 12
+let minuscules = (txt) => txt.toLowerCase();
+console.log(minuscules("HOLa"))
