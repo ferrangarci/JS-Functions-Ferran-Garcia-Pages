@@ -106,7 +106,7 @@ console.log(minuscules("HOLa")) */
 console.log(dosvalors(null, 4)) */
 
 // EXERCICI 14
-const posicio = (frase, paraula) => {
+/* const posicio = (frase, paraula) => {
     let i = frase.indexOf(paraula);
     return i === -1 ? -1 : frase.length - (i + paraula.length);
 };
@@ -117,4 +117,8 @@ const dividir = (frase, paraula) => {
 };
 
 console.log(posicio("Hola com estàs", "com"));
-console.log(dividir("Hola com estàs", "com"));
+console.log(dividir("Hola com estàs", "com")); */
+
+// EXERCICI 15
+const triple = (x) => x + x + x;
+console.log(triple(5))
