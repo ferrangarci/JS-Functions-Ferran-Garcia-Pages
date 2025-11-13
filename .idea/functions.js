@@ -93,5 +93,14 @@ console.log(dosvalors(5, 5)); */
 console.log(arrelquadrada(10)) */
 
 // EXERCICI 12
-let minuscules = (txt) => txt.toLowerCase();
-console.log(minuscules("HOLa"))
+/* let minuscules = (txt) => txt.toLowerCase();
+console.log(minuscules("HOLa")) */
+
+// EXERCICI 13
+let dosvalors = (a, b) => {
+    if (a !== null) { return a; }
+    else if (b !== null) { return b; }
+    else { return false; }
+}
+
+console.log(dosvalors(null, 4))
