@@ -97,10 +97,24 @@ console.log(arrelquadrada(10)) */
 console.log(minuscules("HOLa")) */
 
 // EXERCICI 13
-let dosvalors = (a, b) => {
+/* let dosvalors = (a, b) => {
     if (a !== null) { return a; }
     else if (b !== null) { return b; }
     else { return false; }
 }
 
-console.log(dosvalors(null, 4))
+console.log(dosvalors(null, 4)) */
+
+// EXERCICI 14
+const posicio = (frase, paraula) => {
+    let i = frase.indexOf(paraula);
+    return i === -1 ? -1 : frase.length - (i + paraula.length);
+};
+
+const dividir = (frase, paraula) => {
+    let p = posicio(frase, paraula);
+    return p === -1 ? "" : frase.slice(frase.length - p);
+};
+
+console.log(posicio("Hola com estàs", "com"));
+console.log(dividir("Hola com estàs", "com"));
